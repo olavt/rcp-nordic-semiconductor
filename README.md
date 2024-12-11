@@ -90,15 +90,17 @@ Select "Copy a sample" and search for "OpenThread Co-Processor sample":
 
 Open the new application in Visual Studio Code
 
-### Create a new Build Configuration and start the build
+### Add a new Build Configuration and start the build
 
-Click on the "nRF Connect" icon in the left menu and click on "Create Build Configuration":
+Click on the "nRF Connect" icon in the left menu and click on "Add Build Configuration":
 
-![Create Build Configuration](./images/create-build-configuration.png)
+![Add Build Configuration](./images/add-build-configuration.png)
 
-Make sure "nrf52840dongle_nrf52840" is selected as the board and then click "Build Configuration".
+In the Add Build Configuration settings dialog, make sure "nrf52840dongle_nrf52840" is selected as the board and then click "Build Configuration".
 
-A .hex file will be created in the build/zephyr directory.
+![Add Build Configuration Settings](./images/add-build-configuration-settings.png)
+
+A .hex file will be created in the build/coprocessor/zephyr directory.
 
 ### Set the nRF52840 USB Dongle in Bootloader mode
 
